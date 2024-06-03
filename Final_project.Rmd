@@ -1,6 +1,6 @@
 ---
 title: "STATISTICAL ANALYSIS OF RISK FACTORS ASSOCIATED WITH SLEEP DISORDER"
-author: "Namratha Shivani Chalasani, Vidya Sai Rashmitha Reddy Yellareddy, Anusha Bellapu"
+author: "Namratha Shivani Chalasani"
 date: "2023-11-02"
 output: html_document
 ---
