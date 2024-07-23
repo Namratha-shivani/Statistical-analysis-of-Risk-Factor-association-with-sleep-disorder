@@ -20,14 +20,15 @@ that increasing age is associated with shorter sleep duration and higher rates o
 differences have been observed, with women exhibiting higher susceptibility to insomnia compared to men [2].
 Likewise, occupational demands, physical activity levels, and stress all have intricate relationships with sleep, often
 exacerbating or alleviating sleep disturbances [3,4].               
+
 The data suitable for this type of analysis is obtained from Kaggle's sleep health and lifestyle dataset [5]. The data
 consists of 400 participants and describes their age, gender, occupation, sleep duration, quality of sleep, blood
 pressure, heart rate, stress level, BMI category, physical activity, daily steps, and their sleep disorder status.       
 
 The classes of the variables are:
-- Numerical Variables: Age, Physical Activity, Heart Rate, Daily Steps (Discrete), Sleep Duration, Blood Pressure
+- **_Numerical Variables_**: Age, Physical Activity, Heart Rate, Daily Steps (Discrete), Sleep Duration, Blood Pressure
 (continuous).
-- Categorical Variables: Gender, Occupation, sleep disorder (Nominal), Quality of Sleep, Stress Level, BMI Category
+- **_Categorical Variables_**: Gender, Occupation, sleep disorder (Nominal), Quality of Sleep, Stress Level, BMI Category
 (Ordinal) 
 
 By meticulously employing these diverse statistical tools, this study aims to unearth valuable insights into the
@@ -42,34 +43,35 @@ have a statically significant impact on the presence of sleep disorders.
 
 <h3>METHODOLOGY:</h3>
 
-**_Data Pre-processing:_**
+**_Data Pre-processing:_**      
+
 All the sleep disorder categories are mapped to numerical values. The columns used in the further analysis from the
 data Gender, Age, Sleep duration, Quality of sleep, Physical activity, stress level, and sleep disorder columns deemed
 relevant for the study are selected and stored in the 'data' variable. The data is then cleaned to remove the
 participants with incomplete data. These preprocessing steps ensure that the data is in a suitable format for
 subsequent analyses related to sleep disorders.        
 
-Descriptive analysis: Descriptive analysis calculates the Mean, Median, Standard Deviation, Interquartile Range
+**_Descriptive analysis:_** Descriptive analysis calculates the Mean, Median, Standard Deviation, Interquartile Range
 (IQR) and provides basic understanding of data distribution (central tendency, spread, presence of outliers). It is
 Essential for exploring data before diving into more complex analyses. This method Doesn't capture relationships
 between variables.        
 
-Correlation Analysis: Correlation analysis is used to calculate the Pearson correlation coefficient and measures the
+**_Correlation Analysis:_** Correlation analysis is used to calculate the Pearson correlation coefficient and measures the
 strength and direction of linear relationships between two continuous variables. It Identifies potential factors
 associated with sleep disorders. This Doesn't imply causation, assumes linearity, doesn't capture interaction effects.     
 
-Covariance Analysis: ANCOVA (Analysis of Covariance). It Controls for the influence of confounding variables on the
+**_Covariance Analysis:_** ANCOVA (Analysis of Covariance). It Controls for the influence of confounding variables on the
 relationship between independent and dependent variables. It Isolates the specific effect of a factor on sleep
 disorders while accounting for other variables.      
 
-Paired t-test: To compare the means of two groups on a continuous variable. Tests for differences in sleep duration
+**_Paired t-test:_** To compare the means of two groups on a continuous variable. Tests for differences in sleep duration
 between males and females. 
 
-Two-Way ANOVA: Two-factor ANOVA with sleep duration as the dependent variable. Compares the means of sleep
+**_Two-Way ANOVA:_** Two-factor ANOVA with sleep duration as the dependent variable. Compares the means of sleep
 duration across multiple groups defined by two categorical independent variables (stress level and occupation).
 Checks for interactions between stress level and occupation on sleep duration.          
 
-Linear Regression Analysis: Multiple linear regression is the linear relationship between multiple independent
+**_Linear Regression Analysis:_** Multiple linear regression is the linear relationship between multiple independent
 variables (physical activity, stress level) and a continuous dependent variable (sleep duration). Quantifies the
 individual and combined effects of factors on sleep duration. Assumes linearity and normality of residuals, sensitive
 to multicollinearity, overfitting possible with many variables.        
