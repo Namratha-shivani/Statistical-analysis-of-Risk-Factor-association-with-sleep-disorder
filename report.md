@@ -83,7 +83,11 @@ people had sleep between 7-8 hours. The average stress level was 5 with a range 
 activity of the population was found to be 59 minutes. The average heart rate and daily steps of the population was
 found to be 70 beats/minute and the 7000 steps per day.         
 
-FIGURE 1: Descriptive Analysis              
+<p align="center">
+  <img src="MR.png" width="400" height="300" alt="Alt Text">
+  FIGURE 1: Descriptive Analysis 
+</p>
+             
 
 **_Correlation Analysis:_**       
 
