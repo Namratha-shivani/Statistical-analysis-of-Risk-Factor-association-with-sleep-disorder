@@ -43,10 +43,7 @@ have a statically significant impact on the presence of sleep disorders.
 
 <h3>METHODOLOGY:</h3>
 
-**_Data Pre-processing:_**      
-
-All the sleep disorder categories are mapped to numerical values. The columns used in the further analysis from the
-data Gender, Age, Sleep duration, Quality of sleep, Physical activity, stress level, and sleep disorder columns deemed
+**_Data Pre-processing:_** All the sleep disorder categories are mapped to numerical values. The columns used in the further analysis from the data Gender, Age, Sleep duration, Quality of sleep, Physical activity, stress level, and sleep disorder columns deemed
 relevant for the study are selected and stored in the 'data' variable. The data is then cleaned to remove the
 participants with incomplete data. These preprocessing steps ensure that the data is in a suitable format for
 subsequent analyses related to sleep disorders.        
