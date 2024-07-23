@@ -84,7 +84,7 @@ activity of the population was found to be 59 minutes. The average heart rate an
 found to be 70 beats/minute and the 7000 steps per day.         
 
 <p align="center">
-  <img src="Descriptive analysis" width="400" height="300" alt="Alt Text">    
+  <img src="Descriptive analysis.png" width="400" height="300" alt="Alt Text">    
 </p>
 
 <p align='center'>
