@@ -84,7 +84,7 @@ activity of the population was found to be 59 minutes. The average heart rate an
 found to be 70 beats/minute and the 7000 steps per day.         
 
 <p align="center">
-  <img src="Descriptive analysis.png" width="600" height="300" alt="Alt Text"> 
+  <img src="Descriptive analysis.png" width="600" height="400" alt="Alt Text"> 
   <img src="Descriptive analysis 2.png" width="600" height="300" alt="Alt Text">
 </p>
 
@@ -106,15 +106,28 @@ Physical activity demonstrates a very weak negative correlation with stress leve
 with heart rate. Moreover, our data reveals a positive correlation between stress increase and elevated heart rate,
 consistent with the well-known relationship between these variables    
 
+<p align="center">
+  <img src="Correlation.png" width="600" height="400" alt="Alt Text"> 
+</p>
 
-Figure 2: The color pattern illustrates the correlations between variables within each sleep disorder.     
+<p align='center'>
+Figure 2: The color pattern illustrates the correlations between variables within each sleep disorder.
+</p>
+     
 
 **_Covariance Analysis:_**
 Age, physical activity, and heart rate tend to increase together, while daily steps and sleep duration might decrease
 with age. Physical activity links to lower stress, while longer sleep might reduce stress and heart rate. Sleep duration
 and quality are positively related, while stress negatively impacts sleep quality and potentially blood pressure.[Figure 3]      
 
-Figure 3: Covariance analysis           
+<p align="center">
+  <img src="Covariance.png" width="600" height="400" alt="Alt Text"> 
+</p>
+
+<p align='center'>
+Figure 3: Covariance analysis
+</p>
+           
 
 
 **_Two-Way ANOVA Test:_**   
@@ -128,8 +141,14 @@ a significant effect.
 It is also observed that there is a large variation between groups in stress level and sleep disorder than that with in
 group variation as seen by the F statistic of 122.442 [Figure 4].     
 
+<p align="center">
+  <img src="ANOVA.png" width="600" height="400" alt="Alt Text"> 
+</p>
 
-Figure 4: Two-way ANOVA table with F statistic and p-value     
+<p align='center'>
+Figure 4: Two-way ANOVA table with F statistic and p-value  
+</p>
+   
 
 
 
@@ -147,10 +166,14 @@ _Sleep disorder = 4.626903 + 0.333273 * Gender + 0.054348 * Age - 0.130700 *stre
 activity level – 0.789375 * sleep duration_      
 
 
+<p align="center">
+  <img src="t-test.png" width="600" height="400" alt="Alt Text"> 
+</p>
 
-Figure 5: Pairwise t-test showing that all the variables significant in relation to sleep disorder.         
-
-
+<p align='center'>
+Figure 5: Pairwise t-test showing that all the variables significant in relation to sleep disorder. 
+</p>
+         
 _Intercept_ – when everything else zero then there is 4.626903 sleep disorder prediction value. \     
 
 _Slope gender_ - If the gender is male and everything else is zero then there is 0.333 increase in sleep disorder
@@ -173,8 +196,13 @@ The F-statistic (F = 48.36) tests the overall significance of the model, and the
 that the model is statistically significant in predicting sleep disorder [Figure 6]     
 
 
+<p align="center">
+  <img src="Linear Regression.png" width="600" height="400" alt="Alt Text"> 
+</p>
 
-Figure 6: Linear Regression model summary          
+<p align='center'>
+Figure 6: Linear Regression model summary  
+</p>         
 
 
 <h3>DISCUSSION:</h3>  
